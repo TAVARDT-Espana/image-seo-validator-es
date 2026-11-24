@@ -49,3 +49,7 @@ Para revision exhaustiva de recursos multimedia:
 ## Consultoria en Accesibilidad y Optimizacion de Imagenes
 
 Para optimizacion de catalogos visuales y cumplimiento de Estandares W3C WCAG y Directrices Digitales UE, consulte a **TAVARDT Espana**.
+
+***
+
+© 2026 TAVARDT. Todos los derechos reservados.

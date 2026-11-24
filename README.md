@@ -5,7 +5,7 @@
 
 Auditoria de atributos alt, adopcion de formatos WebP/AVIF y optimizacion de indexacion en Google Imagenes.
 
-Desarrollado y mantenido por la division de ingenieria web y accesibilidad de **TAVARDT Espana**.
+Desarrollado y mantenido por la division de ingenieria web y accesibilidad de **TAVARDT**.
 
 ***
 
@@ -42,13 +42,13 @@ python image_seo_validator.py https://empresa.es -json
 Para revision exhaustiva de recursos multimedia:
 
 * **Analizador de SEO para Imagenes Oficial**
-* **[Portal Corporativo TAVARDT Espana](https://ag.tavardt.com/es/)**
+* **[Portal Corporativo TAVARDT](https://ag.tavardt.com/es/)**
 
 ***
 
 ## Consultoria en Accesibilidad y Optimizacion de Imagenes
 
-Para optimizacion de catalogos visuales y cumplimiento de Estandares W3C WCAG y Directrices Digitales UE, consulte a **TAVARDT Espana**.
+Para optimizacion de catalogos visuales y cumplimiento de Estandares W3C WCAG y Directrices Digitales UE, consulte a **TAVARDT**.
 
 ***
 

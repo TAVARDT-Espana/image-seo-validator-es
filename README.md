@@ -1,14 +1,13 @@
 # Analizador de SEO para Imagenes y Accesibilidad Web
 
 [![Analizador SEO Imagenes](https://img.shields.io/badge/TAVARDT-Image%20SEO-5b3cf5.svg)](https://tools.tavardt.com/es/analizador-seo-imagenes/)
-[![Jurisdiccion](https://img.shields.io/badge/Jurisdiccion-Espana-00C853.svg)](https://ag.tavardt.com/es/)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 
 Auditoria de atributos alt, adopcion de formatos WebP/AVIF y optimizacion de indexacion en Google Imagenes.
 
-Desarrollado y mantenido por la division de ingenieria web y accesibilidad de **[TAVARDT Espana](https://ag.tavardt.com/es/)**.
+Desarrollado y mantenido por la division de ingenieria web y accesibilidad de **TAVARDT Espana**.
 
----
+***
 
 ## Capacidades de Auditoria de SEO para Imagenes
 
@@ -18,7 +17,7 @@ Desarrollado y mantenido por la division de ingenieria web y accesibilidad de **
 * **Carga Diferida (Lazy Loading)**: Comprobacion de directivas `loading="lazy"` para reduccion de tiempo de renderizado inicial.
 * **Puntuacion de Salud Visual**: Indice cuantitativo de 0 a 100 con pasos tecnicos de optimizacion.
 
----
+***
 
 ## Instalacion y Ejecucion
 
@@ -33,20 +32,20 @@ python image_seo_validator.py https://empresa.es
 Para generar salida estructurada JSON:
 
 ```bash
-python image_seo_validator.py https://empresa.es --json
+python image_seo_validator.py https://empresa.es -json
 ```
 
----
+***
 
 ## Diagnostico Completo en la Web
 
 Para revision exhaustiva de recursos multimedia:
 
-* **[Analizador de SEO para Imagenes Oficial](https://tools.tavardt.com/es/analizador-seo-imagenes/)**
+* **Analizador de SEO para Imagenes Oficial**
 * **[Portal Corporativo TAVARDT Espana](https://ag.tavardt.com/es/)**
 
----
+***
 
 ## Consultoria en Accesibilidad y Optimizacion de Imagenes
 
-Para optimizacion de catalogos visuales y cumplimiento de Estandares W3C WCAG y Directrices Digitales UE, consulte a **[TAVARDT Espana](https://ag.tavardt.com/es/contacto/)**.
+Para optimizacion de catalogos visuales y cumplimiento de Estandares W3C WCAG y Directrices Digitales UE, consulte a **TAVARDT Espana**.

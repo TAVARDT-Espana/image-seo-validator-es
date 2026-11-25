@@ -4,54 +4,83 @@
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-Auditoria de atributos alt, adopcion de formatos WebP/AVIF y optimizacion de indexacion en Google Imagenes.
+Auditoria de integridad de texto alternativo, adopcion de formatos WebP y AVIF, dimensiones de estabilidad visual y metadatos sociales.
 
 ***
 
-## Capacidades de Auditoria de SEO para Imagenes
+## Vectores de Riesgo e Impacto Operativo en la Entrega de Imagenes
 
-* **Inspeccion de Textos Alternativos Alt**: Control de presencia y calidad del atributo `alt`, eliminando descripciones genericas o vacias.
-* **Adopcion de Formatos de Ultima Generacion**: Auditoria de uso de formatos WebP y AVIF frente a formatos tradicionales.
-* **Estabilidad Visual y Prevencion de CLS**: Verificacion de atributos explicitos `width` y `height` en etiquetas de imagen.
-* **Carga Diferida (Lazy Loading)**: Comprobacion de directivas `loading="lazy"` para reduccion de tiempo de renderizado inicial.
-* **Puntuacion de Salud Visual**: Indice cuantitativo de 0 a 100 con pasos tecnicos de optimizacion.
+La ausencia de texto alternativo crea barreras de accesibilidad e impide la indexacion visual en motores de busqueda en Espana. Las descripciones genericas degradan la relevancia contextual y reducen la visibilidad en resultados organicos.
+
+El uso de formatos tradicionales sin comprimir incrementa el consumo de ancho de banda y ralentiza la carga en dispositivos moviles. Omitir atributos de anchura y altura genera saltos visuales que perjudican las metricas de estabilidad de layout.
+
+***
+
+## Capacidades Centrales de Auditoria Tecnica
+
+* **Auditoria Critica de Texto Alternativo (Alt)**: Inspecciona cada etiqueta de imagen detectando la falta de alt, aplicando deducciones de hasta 35 puntos con alerta critica.
+* **Filtrado de Descripciones Genericas**: Detecta terminos vagos como imagen o foto y nombres automaticos de archivo, deduciendo 5 puntos por caso hasta 15 puntos.
+* **Adopcion de Formatos de Proxima Generacion**: Comprueba la presencia de WebP, AVIF y SVG frente a formatos heredados JPEG y PNG, con penalizaciones de hasta 20 puntos.
+* **Control de Estabilidad de Layout (CLS)**: Verifica la presencia de atributos explicitos width y height, deduciendo 3 puntos por imagen sin dimensiones hasta 20 puntos.
+* **Comprobacion de Carga Diferida (Lazy Loading)**: Analiza el uso del atributo loading='lazy' para asegurar la descarga asincrona de recursos fuera de pantalla.
+* **Validacion de Metadatos Open Graph**: Confirma la declaracion de la etiqueta og:image para generar vistas previas atractivas, aplicando 10 puntos de penalizacion si falta.
+* **Indice de Calidad de SEO Visual**: Calcula una calificacion de 0 a 100 categorizando los recursos en COMPLIANT, WARNING o CRITICAL.
 
 ***
 
 ## Instalacion y Ejecucion
 
-Requiere Python 3.8 o superior sin dependencias externas.
+Requiere Python 3.8 o superior utilizando unicamente bibliotecas estandar.
 
 ```bash
 git clone https://github.com/TAVARDT-Espana/image-seo-validator-es.git
 cd image-seo-validator-es
-python image_seo_validator.py https://empresa.es
+python image_seo_scanner.py https://empresa.es
 ```
 
-Para generar salida estructurada JSON:
+Para generar la salida en formato estructurado JSON en procesos automatizados de auditoria:
 
 ```bash
-python image_seo_validator.py https://empresa.es -json
+python image_seo_scanner.py https://empresa.es -j
 ```
 
 ***
 
-## Consultoria en Accesibilidad y Optimizacion de Imagenes
+## Preguntas Frecuentes (FAQ Tecnico)
 
-Para optimizacion de catalogos visuales y cumplimiento de Estandares W3C WCAG y Directrices Digitales UE, consulte a **TAVARDT**.
+### 1. Como afecta la ausencia de atributos alt a la indexacion visual y la accesibilidad?
+Los motores de busqueda utilizan el texto alternativo para comprender el significado de las imagenes e indexarlas correctamente. La omision del atributo alt infringe los estandares de accesibilidad y bloquea la extraccion de datos por modelos de inteligencia artificial.
+
+### 2. Por que el auditor penaliza descripciones genericas o nombres de archivo por defecto?
+Terminos como imagen o codigos generados por camaras no aportan informacion semantica para personas con discapacidad visual. Los algoritmos de clasificacion consideran estas etiquetas como relleno superfluo y descartan su valor de posicionamiento.
+
+### 3. Como ayuda la definicion explicita de dimensiones a mitigar el Cumulative Layout Shift?
+Declarar los valores de width y height permite que el navegador calcule la proporcion y reserve el espacio necesario antes de descargar la imagen. Omitir estos parametros provoca desplazamientos repentinos del contenido y perjudica las metricas de Core Web Vitals.
+
+### 4. Que ventajas tecnicas ofrecen los formatos WebP y AVIF sobre los archivos JPEG y PNG tradicionales?
+Los formatos modernos proporcionan algoritmos de compresion avanzados que reducen el peso de las imagenes entre un veinticinco y un cincuenta por ciento sin perdida apreciable. Esta optimizacion acelera el tiempo de renderizado y reduce el consumo de datos moviles.
+
+### 5. Por que es indispensable configurar la imagen Open Graph en la arquitectura web?
+Las plataformas de mensajeria y los motores de respuesta leen los metadatos og:image para construir tarjetas visuales enriquecidas. La ausencia de esta etiqueta genera enlaces sin atractivo visual que sufren una disminucion considerable en la tasa de clics.
 
 ***
 
-## Enlaces Útiles
+## Asesoria en Accesibilidad Visual y Optimizacion de Medios
+
+Para portales de alto volumen y cumplimiento estricto de las directrices W3C WCAG, consulte con los ingenieros de **TAVARDT**.
+
+***
+
+## Enlaces Utiles
 
 * **Portal Corporativo:** https://ag.tavardt.com/es/
-* **Suite de Diagnósticos:** https://tools.tavardt.com/es/
-* **Contacto Técnico:** https://ag.tavardt.com/es/contacto/
+* **Suite de Diagnosticos:** https://tools.tavardt.com/es/
+* **Contacto Tecnico:** https://ag.tavardt.com/es/contacto/
 
 ***
 
 ### Licencia
-Distribuido bajo la Licencia MIT.
+Distribuido bajo la Licencia MIT. Consulte el archivo LICENSE para mas detalles.
 
 ***
 
